@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Veille</title>
+</head>
+<body>
+    <div class="myDiv">
+
+        <div >
+            <ul id="myList">
+                <li>Thomas</li>
+                <li>José</li>
+                <li>Malik</li>
+            </ul>
+        </div>
+
+
+
+        <h5>Student Name</h5>
+        <input class="input-group mb-3" type="text" placeholder="Name" id="input1">
+
+        <button type="button" class="btn btn-outline-success" onclick="addStudent()">Add</button>
+
+        <div id="nomVeille">
+            <p >ALGO - Alban</p>
+        </div>
+
+
+        <h5>Veille Name</h5>
+        <input class="input-group mb-3" type="text" placeholder="Subject" id="input2">
+
+
+        <button type="button" class="btn btn-outline-success" onclick="add()">Assign</button>
+        <br><br>
+        <!-- <input type="button" value="Refresh" onClick="refresh"> -->
+        <button  type="button" class="btn btn-outline-danger" onclick="refreshFunction()">Refresh all list</button>
+        <button  type="button" class="btn btn-outline-danger" onclick="refreshStudent()">Refresh Student</button>
+        <button  type="button" class="btn btn-outline-danger" onclick="refreshVeille()">Refresh Veille</button>
+        <button  type="button" class="btn btn-outline-danger" onclick="freeStudent()">libere</button>
+        <button  type="button" class="btn btn-outline-danger" onclick="clear()">clear storage</button>
+    </div>
+
+    <script src="oui.js"></script>
+</body>
+</html>

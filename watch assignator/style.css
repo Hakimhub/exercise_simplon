@@ -1,0 +1,11 @@
+.aRayer{
+    text-decoration:line-through;
+    color: coral;
+}
+
+body{
+    margin: 5vh;
+}
+.onaRayer{
+    text-decoration: none;
+}
